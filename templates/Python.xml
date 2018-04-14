@@ -1,0 +1,27 @@
+<templateSet group="Python">
+  <template name="todo" value="# TODO: " description="TODO, things to add" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="urgent" value="# URGENT: " description="URGENT, to do ASAP" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="fixme" value="# FIXME: " description="FIXME, alterations to be made" toReformat="false" toShortenFQNames="true" />
+  <template name="linked_todo" value="# LINKED_TODO: " description="LINKED_TODO, a todo that is connected" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>
